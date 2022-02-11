@@ -26,7 +26,7 @@ public:
 
     };
 };
-/*
+
 int main() {
     double result = 0.;
     {
@@ -42,4 +42,4 @@ int main() {
     }
     std::cout << "Result is " << result;
     return 0;
-}*/
+}

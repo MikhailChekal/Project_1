@@ -35,10 +35,13 @@ int main() {
             result += std::sin(i) + std::cos(i);
         }
         t.pause();
-        for(auto i = 0u; i < 10000000u; i++) {
+        for(auto i = 0u; i < 1000000u; i++) {
             result += std::sin(i) + std::cos(i);
         }
         t.cont();
+        for(auto i = 0u; i < 10000000u; i++) {
+            result += std::sin(i) + std::cos(i);
+        }
     }
     std::cout << "Result is " << result;
     return 0;

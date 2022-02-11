@@ -4,4 +4,4 @@ project(Project_1)
 set(CMAKE_CXX_STANDARD 17)
 
 
-add_executable(Project_1 main_2.cpp)
+add_executable(Project_1 list.cpp map.cpp)
